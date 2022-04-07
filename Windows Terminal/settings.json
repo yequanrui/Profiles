@@ -41,10 +41,10 @@
         {
             "acrylicOpacity": 0.48999999999999999,
             "antialiasingMode": "cleartype",
-            "colorScheme": "rebecca",
+            "colorScheme": "Flat UI Palette",
             "font":
             {
-                "face": "Menlo"
+                "face": "Cascadia Mono"
             },
             "useAcrylic": true
         },
