@@ -1,9 +1,10 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions":
+    "actions": 
     [
         {
-            "command":
+            "command": 
             {
                 "action": "copy",
                 "singleLine": false
@@ -19,7 +20,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -35,29 +36,29 @@
     "experimental.rendering.forceFullRepaint": false,
     "experimental.rendering.software": false,
     "focusFollowMouse": true,
-    "profiles":
+    "minimizeToNotificationArea": false,
+    "profiles": 
     {
-        "defaults":
+        "defaults": 
         {
-            "acrylicOpacity": 0.48999999999999999,
             "antialiasingMode": "cleartype",
+            "backgroundImage": null,
             "colorScheme": "Flat UI Palette",
-            "font":
+            "font": 
             {
                 "face": "Cascadia Mono"
             },
+            "opacity": 49,
             "useAcrylic": true
         },
-        "list":
+        "list": 
         [
             {
-                "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
             },
             {
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "\u547d\u4ee4\u63d0\u793a\u7b26"
@@ -76,7 +77,7 @@
             }
         ]
     },
-    "schemes":
+    "schemes": 
     [
         {
             "background": "#0C0C0C",
@@ -401,7 +402,7 @@
             "yellow": "#F2E7B7"
         }
     ],
-    "tabWidthMode": "titleLength",
+    "tabWidthMode": "equal",
     "trimBlockSelection": true,
     "useAcrylicInTabRow": true,
     "windowingBehavior": "useExisting"
