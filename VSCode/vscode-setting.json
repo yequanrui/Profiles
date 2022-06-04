@@ -6,13 +6,14 @@
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
   "[vue]": {
-    "editor.defaultFormatter": "johnsoncodehk.volar"
+    "editor.defaultFormatter": "Vue.volar"
   },
   "bracketPairColorizer.forceIterationColorCycle": true,
   "bracketPairColorizer.forceUniqueOpeningColor": true,
   "bracketPairColorizer.highlightActiveScope": true,
   "bracketPairColorizer.showBracketsInGutter": true,
   "bracketPairColorizer.showBracketsInRuler": true,
+  "code-runner.runInTerminal": true,
   "css.validate": false,
   "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
