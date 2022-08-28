@@ -2,21 +2,21 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "bracketPairColorizer.forceIterationColorCycle": true,
-  "bracketPairColorizer.forceUniqueOpeningColor": true,
-  "bracketPairColorizer.highlightActiveScope": true,
-  "bracketPairColorizer.showBracketsInGutter": true,
-  "bracketPairColorizer.showBracketsInRuler": true,
   "code-runner.runInTerminal": true,
   "css.validate": false,
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.autoExpandLazyVariables": true,
+  "debug.console.closeOnEnd": true,
   "editor.accessibilitySupport": "off",
-  "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
@@ -37,17 +37,15 @@
   "javascript.preferences.quoteStyle": "single",
   "less.validate": false,
   "markdownlint.config": {
+    "MD024": false,
     "MD033": false,
     "MD041": false,
     "default": true
   },
   "scss.validate": false,
   "typescript.preferences.quoteStyle": "single",
-  "vetur.format.enable": false,
-  "vetur.validation.script": false,
-  "vetur.validation.style": false,
-  "vetur.validation.template": false,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.autoDetectColorScheme": true,
   "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "none"
 }
