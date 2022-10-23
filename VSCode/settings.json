@@ -26,6 +26,8 @@
   "editor.fontLigatures": true,
   "editor.guides.bracketPairs": "active",
   "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.stickyScroll.enabled": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
