@@ -11,12 +11,15 @@
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
   "code-runner.runInTerminal": true,
   "css.validate": false,
   "debug.allowBreakpointsEverywhere": true,
   "debug.autoExpandLazyVariables": true,
   "debug.console.closeOnEnd": true,
-  "editor.accessibilitySupport": "off",
+  "editor.accessibilitySupport": "on",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
@@ -31,7 +34,6 @@
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "eslint.alwaysShowStatus": true,
   "extensions.closeExtensionDetailsOnViewChange": true,
   "files.autoSave": "afterDelay",
   "files.trimTrailingWhitespace": true,
@@ -44,6 +46,7 @@
     "MD041": false,
     "default": true
   },
+  "redhat.telemetry.enabled": true,
   "scss.validate": false,
   "typescript.preferences.quoteStyle": "single",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
