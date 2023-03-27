@@ -2,9 +2,6 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
@@ -43,8 +40,11 @@
   "javascript.preferences.quoteStyle": "single",
   "less.validate": false,
   "markdownlint.config": {
+    "MD022": false,
     "MD024": false,
+    "MD025": false,
     "MD033": false,
+    "MD034": false,
     "MD041": false,
     "default": true
   },

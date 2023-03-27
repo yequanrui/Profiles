@@ -1,0 +1,215 @@
+version: 3
+profiles: []
+hotkeys:
+  toggle-window:
+    - Ctrl-Space
+  copy:
+    - Ctrl-Shift-C
+  paste:
+    - Ctrl-Shift-V
+    - Shift-Insert
+  home:
+    - Home
+  end:
+    - End
+  previous-word:
+    - Ctrl-Left
+  next-word:
+    - Ctrl-Right
+  delete-previous-word:
+    - Ctrl-Backspace
+  delete-next-word:
+    - Ctrl-Delete
+  clear: []
+  zoom-in:
+    - Ctrl-=
+    - Ctrl-Shift-=
+  zoom-out:
+    - Ctrl--
+    - Ctrl-Shift--
+  reset-zoom:
+    - Ctrl-0
+  ctrl-c:
+    - Ctrl-C
+  copy-current-path: []
+  search:
+    - Ctrl-Shift-F
+  pane-focus-all:
+    - Ctrl-Shift-I
+  restart-telnet-session: []
+  restart-ssh-session: []
+  launch-winscp: []
+  settings:
+    - Ctrl-,
+  serial:
+    - Alt-K
+  restart-serial-session: []
+  new-window:
+    - Ctrl-Shift-N
+  new-tab:
+    - Ctrl-Shift-T
+  profile-selector:
+    - Ctrl-Shift-T
+  toggle-fullscreen:
+    - F11
+    - Alt-Enter
+  rename-tab:
+    - Ctrl-Shift-R
+  close-tab:
+    - Ctrl-Shift-W
+  reopen-tab:
+    - Ctrl-Shift-T
+  toggle-last-tab: []
+  next-tab:
+    - Ctrl-Shift-Right
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Left
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - Ctrl-Shift-PageUp
+  move-tab-right:
+    - Ctrl-Shift-PageDown
+  rearrange-panes:
+    - Ctrl-Shift
+  duplicate-tab: []
+  tab-1:
+    - Alt-1
+  tab-2:
+    - Alt-2
+  tab-3:
+    - Alt-3
+  tab-4:
+    - Alt-4
+  tab-5:
+    - Alt-5
+  tab-6:
+    - Alt-6
+  tab-7:
+    - Alt-7
+  tab-8:
+    - Alt-8
+  tab-9:
+    - Alt-9
+  tab-10:
+    - Alt-0
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-right:
+    - Ctrl-Shift-E
+  split-bottom:
+    - Ctrl-Shift-D
+  split-left: []
+  split-top: []
+  pane-maximize:
+    - Ctrl-Alt-Enter
+  pane-nav-up:
+    - Ctrl-Alt-Up
+  pane-nav-down:
+    - Ctrl-Alt-Down
+  pane-nav-left:
+    - Ctrl-Alt-Left
+  pane-nav-right:
+    - Ctrl-Alt-Right
+  pane-nav-previous:
+    - Ctrl-Alt-[
+  pane-nav-next:
+    - Ctrl-Alt-]
+  switch-profile:
+    - Ctrl-Alt-T
+  close-pane: []
+  profile: {}
+  profile-selectors: {}
+  select-all:
+    - Ctrl-Shift-A
+  delete-line:
+    - Ctrl-Shift-Backspace
+  focus-all-tabs:
+    - Ctrl-Alt-Shift-I
+  scroll-to-top:
+    - Ctrl-PageUp
+  scroll-up:
+    - Alt-PageUp
+  scroll-down:
+    - Alt-PageDown
+  scroll-to-bottom:
+    - Ctrl-PageDown
+  settings-tab: {}
+  restart-tab: []
+  explode-tab:
+    - Ctrl-Shift-.
+  combine-tabs:
+    - Ctrl-Shift-,
+  pane-nav-1: []
+  pane-nav-2: []
+  pane-nav-3: []
+  pane-nav-4: []
+  pane-nav-5: []
+  pane-nav-6: []
+  pane-nav-7: []
+  pane-nav-8: []
+  pane-nav-9: []
+  pane-increase-vertical: []
+  pane-decrease-vertical: []
+  pane-increase-horizontal: []
+  pane-decrease-horizontal: []
+  command-selector:
+    - Ctrl-Shift-P
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: Solarized Darcula
+    foreground: '#d2d8d9'
+    background: '#3d3f41'
+    cursor: '#708284'
+    colors:
+      - '#25292a'
+      - '#f24840'
+      - '#629655'
+      - '#b68800'
+      - '#2075c7'
+      - '#797fd4'
+      - '#15968d'
+      - '#d2d8d9'
+      - '#25292a'
+      - '#f24840'
+      - '#629655'
+      - '#b68800'
+      - '#2075c7'
+      - '#797fd4'
+      - '#15968d'
+      - '#d2d8d9'
+  customColorSchemes: []
+  cursor: beam
+  profile: local:default
+  altIsMeta: true
+  bell: visual
+  font: Cascadia Mono
+  ligatures: true
+ssh:
+  warnOnClose: true
+configSync:
+  parts: {}
+  token: >-
+    e09073039a34b5126eb27dc8e12c374c535d1f406f772de3bebd3036fb2eb623c56fcf36cae9e60e9b2c8d1b9f970a8f519695e5718877929ae06b9327b62e0e
+clickableLinks:
+  modifier: ctrlKey
+appearance:
+  dockScreen: 2528732444
+  vibrancy: true
+  theme: Standard (legacy)
+  opacity: 0.93
+hacks: {}
+enableWelcomeTab: false
+pluginBlacklist: []
+profileDefaults: {}
+accessibility: {}
+language: zh-CN
