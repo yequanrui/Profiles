@@ -1,0 +1,6 @@
+[
+    //删除行
+    // {"key":"ctrl+d","command":"editor.action.deleteLines"},
+    //选择当前词或下一个相同词
+    // {"key":"ctrl+e","command":"editor.action.addSelectionToNextFindMatch"}
+]

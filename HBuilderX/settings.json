@@ -1,0 +1,29 @@
+{
+    "browsers.config" : {
+        "Chrome.path" : "E:/Tools/Network/Browser/MyChrome/MyChrome.exe",
+        "Firefox.path" : "E:/Tools/Network/Browser/MyFirefox/MyFirefox.exe"
+    },
+    "editor.codeassistKeyTab" : true,
+    "editor.colorScheme" : "Monokai",
+    "editor.fontFamily" : "Cascadia Code",
+    "editor.fontFmyCHS" : "YaHei Consolas Hybrid",
+    "editor.fontSize" : 12,
+    "editor.insertSpaces" : true,
+    "editor.lineHeight" : "1.5",
+    "editor.longLineIndicator" : true,
+    "editor.longLineIndicatorColumn" : 120,
+    "editor.saveFoldStatus.enabled" : true,
+    "editor.saveOnFocusLost" : true,
+    "editor.showLastLineWhenFolded" : true,
+    "editor.tabSize" : 2,
+    "editor.wordWrapMode" : "word",
+    "explorer.folder.openExplorerViewOnClick" : false,
+    "explorer.fontSize" : "12",
+    "explorer.iconTheme" : "hx-file-icons-colorful",
+    "files.associations.contextmenu" : true,
+    "javascript.validate.enable" : true,
+    "node.path" : "C:/Program Files/nodejs/node.exe",
+    "npm.path" : "C:/Program Files/nodejs/npm.cmd",
+    "terminal.type" : "内置终端",
+    "weApp.devTools.path" : "D:/Program Files/微信web开发者工具"
+}
