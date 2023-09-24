@@ -3,7 +3,8 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "files.trimTrailingWhitespace": false
   },
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
@@ -22,6 +23,7 @@
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
   },
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultColorDecorators": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
@@ -33,10 +35,7 @@
   "editor.linkedEditing": true,
   "editor.minimap.autohide": true,
   "editor.mouseWheelZoom": true,
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.rulers": [80, 120],
   "editor.stickyScroll.enabled": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
@@ -46,6 +45,8 @@
   "files.trimTrailingWhitespace": true,
   "i18n-ally.displayLanguage": "zh-cn",
   "javascript.preferences.quoteStyle": "single",
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "less.validate": false,
   "markdownlint.config": {
     "MD022": false,
@@ -59,8 +60,11 @@
   "redhat.telemetry.enabled": true,
   "scss.validate": false,
   "typescript.preferences.quoteStyle": "single",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.autoDetectColorScheme": true,
+  "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "none"
 }

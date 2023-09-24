@@ -1,5 +1,5 @@
 {
-	"Administrator": false,
+	"Administrator": true,
 	"AltDrag": true,
 	"AutoClip": false,
 	"CapsLockLed": true,
@@ -18,10 +18,6 @@
 			"Name": "谷歌搜索",
 			"Valid": true
 		}, {
-			"Actions": [],
-			"Name": "",
-			"Valid": true
-		}, {
 			"Actions": [
 				["Execute", "http://fanyi.youdao.com/translate?i=%clipboard%&keyfrom=plugin&smartresult=dict&smartresult=rule"]
 			],
@@ -32,10 +28,6 @@
 				["Execute", "https://translate.google.com/?source=osdd#auto|auto|%clipboard%"]
 			],
 			"Name": "谷歌翻译",
-			"Valid": true
-		}, {
-			"Actions": [],
-			"Name": "搜索翻译",
 			"Valid": true
 		}, {
 			"Actions": [
@@ -68,10 +60,6 @@
 			"Name": "CyberChef(&C)",
 			"Valid": true
 		}, {
-			"Actions": [],
-			"Name": "",
-			"Valid": true
-		}, {
 			"Actions": [
 				["Algorithm", "md5", "%clipboard%"]
 			],
@@ -84,10 +72,6 @@
 			"Name": "sha1",
 			"Valid": true
 		}, {
-			"Actions": [],
-			"Name": "",
-			"Valid": true
-		}, {
 			"Actions": [
 				["Algorithm", "sha256", "%clipboard%"]
 			],
@@ -98,10 +82,6 @@
 				["Algorithm", "qrcode", "%clipboard%"]
 			],
 			"Name": "二维码",
-			"Valid": true
-		}, {
-			"Actions": [],
-			"Name": "编码解码",
 			"Valid": true
 		}, {
 			"Actions": [
@@ -122,10 +102,6 @@
 			"Name": "什么值得买",
 			"Valid": true
 		}, {
-			"Actions": [],
-			"Name": "购物",
-			"Valid": true
-		}, {
 			"Actions": [
 				["Execute", "https://ditu.amap.com/search?query=%clipboard%"]
 			],
@@ -144,14 +120,6 @@
 			"Name": "哔哩哔哩",
 			"Valid": true
 		}, {
-			"Actions": [],
-			"Name": "其他",
-			"Valid": true
-		}, {
-			"Actions": [],
-			"Name": "",
-			"Valid": true
-		}, {
 			"Actions": [
 				["Execute", "Everything.exe -s %clipboard%"]
 			],
@@ -160,7 +128,7 @@
 		}],
 		"Open": true
 	},
-	"Excludes": [],
+	"Excludes": ["Photoshop.exe", "Adobe Premiere Pro.exe", "Adobe Soundbooth CS5.exe", "Adobe Media Encoder.exe", "lightroom.exe", "Illustrator.exe", "InDesign.exe", "InCopy.exe", "Fireworks.exe", "Flash.exe", "Dreamweaver.exe", "Bridge.exe", "Adobe Audition CC.exe", "AfterFX.exe"],
 	"FastPaste": false,
 	"Gestures": [{
 		"Data": [0, 100, 0, 0],
@@ -389,7 +357,7 @@
 	}],
 	"IgnoreFullScreen": true,
 	"KeySound": false,
-	"KeySoundIndex": 0,
+	"KeySoundIndex": 1,
 	"Keycast": {
 		"BackgroundColor": "#353535",
 		"Fade": 5,
@@ -777,6 +745,9 @@
 		"TraceWidth": 3,
 		"WheelSwitch": true
 	},
+	"OcrService": 0,
+	"QuickJump": true,
+	"ShowIme": false,
 	"ShowTrayIcon": true,
 	"VolumeControlSound": true,
 	"VolumeSoundIndex": 0,
@@ -835,5 +806,5 @@
 		}
 	},
 	"WheelNatural": false,
-	"WheelThrough": false
+	"WheelThrough": true
 }
