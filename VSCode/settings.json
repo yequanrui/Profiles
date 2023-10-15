@@ -6,6 +6,12 @@
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
     "files.trimTrailingWhitespace": false
   },
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
@@ -46,7 +52,7 @@
   "i18n-ally.displayLanguage": "zh-cn",
   "javascript.preferences.quoteStyle": "single",
   "javascript.suggest.autoImports": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
   "less.validate": false,
   "markdownlint.config": {
     "MD022": false,
@@ -61,7 +67,7 @@
   "scss.validate": false,
   "typescript.preferences.quoteStyle": "single",
   "typescript.suggest.autoImports": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "prompt",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.autoDetectColorScheme": true,
   "workbench.editor.wrapTabs": true,

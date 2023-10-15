@@ -44,7 +44,7 @@
 	},
 	"NotifyIconType": 0,
 	"TabHoverSwitchDelay": 50,
-	"cx": 550,
+	"cx": 530,
 	"cy": 688,
 	"lang": "",
 	"minSpareChildProcess": 0,
@@ -65,6 +65,6 @@
 		"tBack": 0.72,
 		"tWin": 0.81
 	},
-	"x": 191,
+	"x": 196,
 	"y": 0
 }
