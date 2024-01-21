@@ -1,4 +1,4 @@
-version: 3
+version: 7
 profiles: []
 hotkeys:
   toggle-window:
@@ -163,30 +163,31 @@ hotkeys:
   pane-decrease-horizontal: []
   command-selector:
     - Ctrl-Shift-P
+  reconnect-tab: []
 terminal:
   searchOptions: {}
   colorScheme:
-    name: Solarized Darcula
-    foreground: '#d2d8d9'
-    background: '#3d3f41'
-    cursor: '#708284'
+    name: OneHalfDark
+    foreground: '#dcdfe4'
+    background: '#282c34'
+    cursor: '#a3b3cc'
     colors:
-      - '#25292a'
-      - '#f24840'
-      - '#629655'
-      - '#b68800'
-      - '#2075c7'
-      - '#797fd4'
-      - '#15968d'
-      - '#d2d8d9'
-      - '#25292a'
-      - '#f24840'
-      - '#629655'
-      - '#b68800'
-      - '#2075c7'
-      - '#797fd4'
-      - '#15968d'
-      - '#d2d8d9'
+      - '#282c34'
+      - '#e06c75'
+      - '#98c379'
+      - '#e5c07b'
+      - '#61afef'
+      - '#c678dd'
+      - '#56b6c2'
+      - '#dcdfe4'
+      - '#282c34'
+      - '#e06c75'
+      - '#98c379'
+      - '#e5c07b'
+      - '#61afef'
+      - '#c678dd'
+      - '#56b6c2'
+      - '#dcdfe4'
   customColorSchemes: []
   cursor: beam
   profile: local:default
@@ -194,22 +195,49 @@ terminal:
   bell: visual
   font: Cascadia Mono
   ligatures: true
+  lightColorScheme:
+    name: OneHalfLight
+    foreground: '#383a42'
+    background: '#fafafa'
+    cursor: '#bfceff'
+    colors:
+      - '#383a42'
+      - '#e45649'
+      - '#50a14f'
+      - '#c18401'
+      - '#0184bc'
+      - '#a626a4'
+      - '#0997b3'
+      - '#fafafa'
+      - '#4f525e'
+      - '#e06c75'
+      - '#98c379'
+      - '#e5c07b'
+      - '#61afef'
+      - '#c678dd'
+      - '#56b6c2'
+      - '#ffffff'
 ssh:
   warnOnClose: true
 configSync:
   parts: {}
-  token: >-
-    e09073039a34b5126eb27dc8e12c374c535d1f406f772de3bebd3036fb2eb623c56fcf36cae9e60e9b2c8d1b9f970a8f519695e5718877929ae06b9327b62e0e
 clickableLinks:
   modifier: ctrlKey
 appearance:
   dockScreen: 2528732444
   vibrancy: true
-  theme: Standard (legacy)
   opacity: 0.93
-hacks: {}
+  colorSchemeMode: auto
+hacks:
+  enableFluentBackground: true
+  disableGPU: true
+  disableVibrancyWhileDragging: true
 enableWelcomeTab: false
 pluginBlacklist: []
 profileDefaults: {}
 accessibility: {}
 language: zh-CN
+providerBlacklist: []
+commandBlacklist: []
+groups: []
+profileBlacklist: []
