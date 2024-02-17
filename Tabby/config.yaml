@@ -164,6 +164,7 @@ hotkeys:
   command-selector:
     - Ctrl-Shift-P
   reconnect-tab: []
+  disconnect-tab: []
 terminal:
   searchOptions: {}
   colorScheme:
@@ -228,6 +229,7 @@ appearance:
   vibrancy: true
   opacity: 0.93
   colorSchemeMode: auto
+  vibrancyType: fluent
 hacks:
   enableFluentBackground: true
   disableGPU: true

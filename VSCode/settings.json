@@ -56,10 +56,7 @@
   "editor.linkedEditing": true,
   "editor.minimap.autohide": true,
   "editor.mouseWheelZoom": true,
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.rulers": [80, 120],
   "editor.stickyScroll.enabled": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
@@ -92,5 +89,6 @@
   "window.autoDetectColorScheme": true,
   "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "vscode-icons",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.untrustedFiles": "newWindow"
 }

@@ -6,7 +6,7 @@
             "ignoreProgramList": "",
             "isSystemAction": true,
             "script": "pixpin.closeAllPin()",
-            "shortCut": "Alt+F2",
+            "shortCut": "Ctrl+F3",
             "showOnTray": true,
             "title": "Close all pin window",
             "type": 256
@@ -15,7 +15,7 @@
             "ignoreProgramList": "",
             "isSystemAction": true,
             "script": "pixpin.openCustomScreenShot()",
-            "shortCut": "Alt+F1",
+            "shortCut": "Shift+F1",
             "showOnTray": true,
             "title": "Custom screenshot",
             "type": 256
@@ -24,7 +24,7 @@
             "ignoreProgramList": "",
             "isSystemAction": true,
             "script": "pixpin.hideOrShowAllPin()",
-            "shortCut": "Ctrl+Alt+F2",
+            "shortCut": "Shift+F3",
             "showOnTray": true,
             "title": "Hide/Show all pin window",
             "type": 256
@@ -42,7 +42,7 @@
             "ignoreProgramList": "",
             "isSystemAction": true,
             "script": "pixpin.pinFromCilpBoard()",
-            "shortCut": "F2",
+            "shortCut": "F3",
             "showOnTray": true,
             "title": "Pin",
             "type": 256
@@ -51,7 +51,7 @@
             "ignoreProgramList": "",
             "isSystemAction": true,
             "script": "pixpin.restoreLastClosedPin()",
-            "shortCut": "F3",
+            "shortCut": "Alt+F3",
             "showOnTray": true,
             "title": "Restore last closed",
             "type": 256
@@ -69,7 +69,7 @@
             "ignoreProgramList": "",
             "isSystemAction": true,
             "script": "pixpin.screenShotAndCopy()",
-            "shortCut": "Ctrl+Alt+F1",
+            "shortCut": "Ctrl+F1",
             "showOnTray": true,
             "title": "Screenshot and copy",
             "type": 256

@@ -9,7 +9,7 @@
   },
   "visible_window_appearance": {
     "enabled": true,
-    "accent": "acrylic",
+    "accent": "clear",
     "color": "#00000000",
     "show_peek": true,
     "show_line": false,
