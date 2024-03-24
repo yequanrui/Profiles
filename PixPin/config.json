@@ -1,0 +1,13 @@
+{
+    "Mark.Eraser.eraserReEditing": true,
+    "Pin.ConfirmOnCloseByKey": false,
+    "Save.SaveAndCopy": true,
+    "Screenshot.SaveAndCopy": true,
+    "System.Clipboard.CopyImageAsFile": true,
+    "System.Run After Boot": {
+        "subConf": {
+            "RunAsAdmin": true
+        },
+        "value": true
+    }
+}

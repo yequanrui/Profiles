@@ -41,8 +41,8 @@ SlashDir=<Temp directory>
 DefaultHome=<Ê×Ò³ (¹Ì¶¨)>
 DefaultNewTab=<ÖÕ¶Ë>
 NewTabPosition=1
-ReplaceHomeTab=0
-NoTabClose=0
+ReplaceHomeTab=1
+NoTabClose=1
 AllowMultiInstances=0
 
 [CustomIcons]
@@ -140,7 +140,7 @@ MonitorNetstat=0
 [Display]
 DisableQuickConnect=0
 CustomDPI_1920_120=0
-IconsTheme=1
+IconsTheme=0
 RoundedTabs=1
 GraphicCache=1
 SidebarRight=0
@@ -180,4 +180,13 @@ Height=791
 Maximized=0
 SidebarVisible=1
 SidebarWidth=300
+
+[ImportExportSpecials]
+ExportedSettings=Home and Slash directories location|Local terminal settings|Global X server settings|SSH settings|Folders history|Services settings|MobaXterm interface settings|Sessions|Macros|Stored passwords and credentials|Sessions presets|SSH tunnels|MobaTextEditor and MobaDiff settings|Custom syntaxes|Shared sessions|Suppressed message dialogs
+mobauser@mobaserver=
+MobaVersion=23.0
+ExportDate=2024-02-18
+ExportTime=04:48:07
+ExportUsername=yequanrui
+ExportComputer=LAPTOP-8TUPA1DO
 
