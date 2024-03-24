@@ -1,0 +1,5 @@
+[http]
+	sslVerify = true
+[user]
+	name = yequanrui
+	email = yequanrui@qq.com

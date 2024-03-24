@@ -1,0 +1,4 @@
+global-bin-dir=E:\.pnpm-store
+cache-dir=E:\.pnpm-store\cache
+state-dir=E:\.pnpm-store\state
+global-dir=E:\.pnpm-store\global
