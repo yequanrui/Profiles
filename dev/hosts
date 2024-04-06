@@ -1,0 +1,116 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+
+# --- SWITCHHOSTS_CONTENT_START ---
+
+# file: Localhost
+127.0.0.1 localhost
+
+# file: Google
+209.116.186.241 www.google.com # Google主页
+209.116.186.241 www.google.com.hk # Google香港主页
+209.116.186.241 ajax.googleapis.com # Google AJAX服务
+209.116.186.241 fonts.googleapis.com # Google字体服务
+209.116.186.241 accounts.google.com # Google账户登录
+209.116.186.241 plus.google.com # Google组件
+209.116.186.241 mail.google.com # Google邮箱
+209.116.186.241 maps.google.com # Google地图
+209.116.186.241 play.google.com # Google应用市场
+209.116.186.241 apis.google.com # Google API服务
+209.116.186.241 clients5.google.com # Google附件
+209.116.186.241 clients2.google.com # Google附件
+209.116.186.241 clients1.google.com # Google附件
+209.116.186.241 clients3.google.com # Google附件
+209.116.186.241 clients4.google.com # Google附件
+209.116.186.241 oauth.googleusercontent.com # Google用户内容
+209.116.186.241 ssl.gstatic.com # Google静态资源
+209.116.186.241 www.gstatic.com # Google静态资源
+209.116.186.241 talkgadget.google.com # Google邮箱
+209.116.186.241 mail-attachment.googleusercontent.com # Google邮箱
+209.116.186.241 chatenabled.mail.google.com # Google邮箱
+209.116.186.241 fonts.gstatic.com # Google静态资源字体
+209.116.186.241 tools.google.com # Google工具
+209.116.186.241 translate.google.com.hk # Google翻译
+# 解决谷歌翻译无法使用
+172.217.160.78 translate.google.com
+172.217.163.42 translate.googleapis.com
+
+# file: Microsoft
+# 无法登录微软账号
+# 13.107.9.158 logincdn.msauth.net
+# 13.107.9.158 login.live.com
+# 13.107.9.158 account.live.com
+# 13.107.9.158 acctcdn.msauth.net
+# Edge无法翻译
+13.107.9.158 edge.microsoft.com
+# Edge无法安装扩展
+13.107.9.158 msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
+
+
+# file: GitHub520
+# GitHub520 Host Start
+140.82.114.25 alive.github.com
+140.82.114.6 api.github.com
+185.199.109.153 assets-cdn.github.com
+185.199.110.133 avatars.githubusercontent.com
+185.199.110.133 avatars0.githubusercontent.com
+185.199.110.133 avatars1.githubusercontent.com
+185.199.110.133 avatars2.githubusercontent.com
+185.199.110.133 avatars3.githubusercontent.com
+185.199.110.133 avatars4.githubusercontent.com
+185.199.110.133 avatars5.githubusercontent.com
+185.199.110.133 camo.githubusercontent.com
+140.82.112.22 central.github.com
+185.199.110.133 cloud.githubusercontent.com
+140.82.113.10 codeload.github.com
+140.82.114.21 collector.github.com
+185.199.110.133 desktop.githubusercontent.com
+185.199.110.133 favicons.githubusercontent.com
+140.82.112.3 gist.github.com
+3.5.28.249 github-cloud.s3.amazonaws.com
+52.216.218.121 github-com.s3.amazonaws.com
+52.216.171.43 github-production-release-asset-2e65be.s3.amazonaws.com
+3.5.30.87 github-production-repository-file-5c1aeb.s3.amazonaws.com
+3.5.2.158 github-production-user-asset-6210df.s3.amazonaws.com
+192.0.66.2 github.blog
+140.82.114.3 github.com
+140.82.113.17 github.community
+185.199.111.154 github.githubassets.com
+151.101.1.194 github.global.ssl.fastly.net
+185.199.110.153 github.io
+185.199.110.133 github.map.fastly.net
+185.199.109.153 githubstatus.com
+140.82.112.26 live.github.com
+185.199.110.133 media.githubusercontent.com
+185.199.110.133 objects.githubusercontent.com
+13.107.42.16 pipelines.actions.githubusercontent.com
+185.199.110.133 raw.githubusercontent.com
+185.199.110.133 user-images.githubusercontent.com
+13.107.253.40 vscode.dev
+140.82.112.22 education.github.com
+
+
+# Update time: 2024-04-06T09:52:40+08:00
+# Update url: https://raw.hellogithub.com/hosts
+# Star me: https://github.com/521xueweihan/GitHub520
+# GitHub520 Host End
