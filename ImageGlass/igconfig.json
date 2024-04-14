@@ -48,14 +48,14 @@
   "UseWebview2ForSvg": true,
   "EnableDebug": false,
   "HideToolbarInFullscreen": false,
-  "HideGalleryInFullscreen": false,
+  "HideGalleryInFullscreen": true,
   "QuickSetupVersion": 9,
-  "FrmMainPositionX": 315,
-  "FrmMainPositionY": 0,
-  "FrmMainWidth": 1289,
-  "FrmMainHeight": 1020,
-  "FrmSettingsPositionX": 49,
-  "FrmSettingsPositionY": 193,
+  "FrmMainPositionX": 945,
+  "FrmMainPositionY": 34,
+  "FrmMainWidth": 625,
+  "FrmMainHeight": 1416,
+  "FrmSettingsPositionX": 768,
+  "FrmSettingsPositionY": 257,
   "FrmSettingsWidth": 1300,
   "FrmSettingsHeight": 800,
   "PanSpeed": 20,
@@ -69,9 +69,9 @@
   "ImageBoosterCacheCount": 1,
   "ImageBoosterCacheMaxDimension": 8000,
   "ImageBoosterCacheMaxFileSizeInMb": 100,
-  "ZoomLockValue": 33.307484,
+  "ZoomLockValue": 100,
   "ToolbarIconHeight": 24,
-  "ImageEditQuality": 80,
+  "ImageEditQuality": 100,
   "InAppMessageDuration": 2000,
   "EmbeddedThumbnailMinWidth": 0,
   "EmbeddedThumbnailMinHeight": 0,
@@ -82,12 +82,12 @@
   "ZoomMode": "AutoZoom",
   "ImageInterpolationScaleDown": "MultiSampleLinear",
   "ImageInterpolationScaleUp": "NearestNeighbor",
-  "AfterEditingAction": "Nothing",
+  "AfterEditingAction": "Minimize",
   "WindowBackdrop": "MicaAlt",
   "ColorProfile": "CurrentMonitorProfile",
   "AutoUpdate": "2024-02-01T08:52:33.4015523Z",
-  "LastSeenImagePath": "E:\\Tools\\Graphics\\ImageGlass\\default.webp",
-  "LastOpenedSetting": "image",
+  "LastSeenImagePath": "",
+  "LastOpenedSetting": "appearance",
   "DarkTheme": "Kobe",
   "LightTheme": "Kobe-Light",
   "BackgroundColor": "",
@@ -137,10 +137,10 @@
     }
   },
   "MouseWheelActions": {
-    "Scroll": "Zoom",
+    "AltAndScroll": "BrowseImages",
     "CtrlAndScroll": "PanVertically",
-    "ShiftAndScroll": "PanHorizontally",
-    "AltAndScroll": "BrowseImages"
+    "Scroll": "Zoom",
+    "ShiftAndScroll": "PanHorizontally"
   },
   "Layout": {},
   "Tools": [
@@ -470,5 +470,22 @@
       }
     }
   ],
-  "ToolSettings": {}
+  "ToolSettings": {
+    "CropTool": {
+      "InitSelectionType": "Select50Percent",
+      "InitSelectedArea": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "CloseToolAfterSaving": "False",
+      "AutoCenterSelection": "True",
+      "AspectRatioValues": [
+        "3",
+        "4"
+      ],
+      "AspectRatio": "FreeRatio"
+    }
+  }
 }
