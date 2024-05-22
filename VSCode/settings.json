@@ -6,7 +6,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
@@ -82,13 +82,14 @@
   },
   "redhat.telemetry.enabled": true,
   "scss.validate": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
   "typescript.preferences.quoteStyle": "single",
   "typescript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "prompt",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.autoDetectColorScheme": true,
+  "workbench.colorTheme": "Default Dark Modern",
   "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "vscode-icons",
-  "workbench.startupEditor": "none",
-  "security.workspace.trust.untrustedFiles": "newWindow"
+  "workbench.startupEditor": "none"
 }
