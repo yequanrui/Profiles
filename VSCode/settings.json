@@ -25,7 +25,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "Vue.volar"
   },
   "[xml]": {
     "editor.defaultFormatter": "DotJoshJohnson.xml"
@@ -35,7 +35,7 @@
   "debug.allowBreakpointsEverywhere": true,
   "debug.autoExpandLazyVariables": true,
   "debug.console.closeOnEnd": true,
-  "editor.accessibilitySupport": "on",
+  "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
@@ -45,18 +45,31 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultColorDecorators": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.experimentalInlineEdit.backgroundColoring": true,
+  "editor.experimentalInlineEdit.enabled": true,
   "editor.foldingImportsByDefault": true,
   "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
+  "editor.gotoLocation.alternativeDefinitionCommand": "editor.action.goToTypeDefinition",
+  "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToImplementation",
+  "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
   "editor.guides.bracketPairs": "active",
+  "editor.hideCursorInOverviewRuler": true,
   "editor.hover.delay": 500,
+  "editor.inlayHints.padding": true,
+  "editor.inlineCompletionsAccessibilityVerbose": true,
   "editor.inlineSuggest.enabled": true,
   "editor.lightbulb.experimental.showAiIcon": "onCode",
   "editor.linkedEditing": true,
   "editor.minimap.autohide": true,
   "editor.mouseWheelZoom": true,
-  "editor.rulers": [80, 120],
+  "editor.renderLineHighlightOnlyWhenFocus": true,
+  "editor.rulers": [
+    80,
+    120
+  ],
   "editor.stickyScroll.enabled": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
@@ -80,7 +93,18 @@
     "MD041": false,
     "default": true
   },
+  "notebook.consolidatedRunButton": true,
+  "notebook.formatOnCellExecution": true,
+  "notebook.formatOnSave.enabled": true,
+  "notebook.insertFinalNewline": true,
+  "notebook.outline.showCodeCells": true,
+  "notebook.output.minimalErrorRendering": true,
+  "notebook.output.scrolling": true,
+  "notebook.output.wordWrap": true,
   "redhat.telemetry.enabled": true,
+  "screencastMode.keyboardOptions": {
+    "showCommandGroups": true
+  },
   "scss.validate": false,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "typescript.preferences.quoteStyle": "single",

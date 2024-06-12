@@ -20,6 +20,15 @@
             "title": "Custom screenshot",
             "type": 256
         },
+        "Disable other shortcuts": {
+            "ignoreProgramList": "",
+            "isSystemAction": true,
+            "script": "pixpin.disableShortcuts(!pixpin.isDisableShortcuts())",
+            "shortCut": "",
+            "showOnTray": false,
+            "title": "Disable other shortcuts",
+            "type": 256
+        },
         "Hide/Show all pin window": {
             "ignoreProgramList": "",
             "isSystemAction": true,
