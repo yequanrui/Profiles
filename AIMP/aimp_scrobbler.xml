@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scrobbler>
+	<options>
+		<option name="ShowTrayIcon" value="0"/>
+		<option name="AllowScrobbling" value="0"/>
+		<option name="AllowScrobblingFromURLs" value="0"/>
+		<option name="AutoLoveTrack" value="0"/>
+		<option name="AutoUnloveTrack" value="0"/>
+		<option name="ShowTrackInfo" value="0"/>
+		<option name="ShowTrayNotifyOnError" value="0"/>
+		<option name="ScrobblingIgnoredPaths" value=""/>
+		<option name="ScrobblingThreshold" value="60"/>
+	</options>
+	<providers>
+		<provider class="TLastfmProvider">
+			<auth>
+				<option name="u" value=""/>
+				<option name="s" value=""/>
+			</auth>
+			<scrobbleCache/>
+		</provider>
+	</providers>
+</scrobbler>
