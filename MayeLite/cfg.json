@@ -27,6 +27,7 @@
 	"IsLockPosition": true,
 	"IsLockSize": true,
 	"IsMouseLeaveHide": true,
+	"IsMouseLeaveHideNotEdge": true,
 	"IsMouseWheelRun": true,
 	"IsNotifyIconHoverShow": false,
 	"IsRePosition": true,
