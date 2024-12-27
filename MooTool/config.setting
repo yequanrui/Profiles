@@ -1,0 +1,32 @@
+[setting.common]
+beforeVersion = v1.6.2
+recentTabIndex = 0
+[setting.appearance]
+fontSize = 16
+theme = Flat Darcula(推荐)
+font = 微软雅黑
+[func.host]
+currentHostName = 
+[]
+fontSizeInit = true
+[setting.quickNote]
+accentColor = Moo.accent.blue
+[setting.custom]
+tabCompact = true
+tabSeparator = false
+tabCard = true
+tabHideTitle = false
+funcTabPosition = 左侧
+menuBarPosition = 上方
+[func.quickNote]
+quickNoteFontSize = 16
+quickNoteFontName = 微软雅黑
+[func.jsonBeauty]
+jsonBeautyFontName = 等线
+jsonBeautyFontSize = 20
+[setting.http]
+httpUseProxy = false
+httpProxyHost = 
+httpProxyPort = 
+httpProxyUserName = 
+httpProxyPassword = 
