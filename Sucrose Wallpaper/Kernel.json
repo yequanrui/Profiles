@@ -1,0 +1,14 @@
+{
+  "Properties": {
+    "Information": {
+      "Version": "25.1.27.0",
+      "Framework": ".NET 9.0",
+      "Architecture": "x64",
+      "OperatingSystem": "Windows11",
+      "OperatingSystemBuild": "10.0.26100.3194",
+      "ProcessArchitecture": "X64",
+      "ProcessorArchitecture": "AMD64",
+      "OperatingSystemArchitecture": "x64"
+    }
+  }
+}

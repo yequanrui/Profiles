@@ -1,0 +1,11 @@
+{
+  "Properties": {
+    "PipeRequired": false,
+    "AudioRequired": false,
+    "SignalRequired": false,
+    "PausePerformance": false,
+    "ClosePerformance": false,
+    "GraphicAdapter": "AMD Radeon 780M Graphics",
+    "NetworkAdapter": "Qualcomm WCN685x Wi-Fi 6E Dual Band Simultaneous [DBS] WiFiCx Network Adapter"
+  }
+}

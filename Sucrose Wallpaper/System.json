@@ -1,0 +1,18 @@
+{
+  "Properties": {
+    "GraphicInterfaces": [
+      "AMD Radeon 780M Graphics",
+      "Honor Virtual Display Device"
+    ],
+    "ProcessorInterfaces": [
+      "AMD Ryzen 7 8845HS w/ Radeon 780M Graphics"
+    ],
+    "NetworkInterfaces": [
+      "Qualcomm WCN685x Wi-Fi 6E Dual Band Simultaneous [DBS] WiFiCx Network Adapter",
+      "Realtek USB GbE Family Controller _2",
+      "Qualcomm WCN685x Wi-Fi 6E Dual Band Simultaneous [DBS] WiFiCx Network Adapter _4",
+      "Qualcomm WCN685x Wi-Fi 6E Dual Band Simultaneous [DBS] WiFiCx Network Adapter _2",
+      "Qualcomm WCN685x Wi-Fi 6E Dual Band Simultaneous [DBS] WiFiCx Network Adapter _3"
+    ]
+  }
+}
