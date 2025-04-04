@@ -1,5 +1,9 @@
-[http]
-	sslVerify = true
 [user]
 	name = yequanrui
 	email = yequanrui@qq.com
+[credential]
+	helper = store
+[http]
+	sslVerify = true
+[credential "https://gitee.com"]
+	provider = generic

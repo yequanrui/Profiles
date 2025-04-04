@@ -1,0 +1,44 @@
+[net]
+git-fetch-with-cli = true
+
+[http]
+check-revoke = false
+
+[source.crates-io]
+replace-with = 'rsproxy-sparse' # 指定使用下面哪个源，修改为source.后面的内容即可
+
+# 字节RsProxy
+[source.rsproxy]
+registry = "https://rsproxy.cn/crates.io-index"
+[source.rsproxy-sparse]
+registry = "sparse+https://rsproxy.cn/index/"
+[registries.rsproxy]
+index = "https://rsproxy.cn/crates.io-index"
+
+# 中国科学技术大学
+[source.ustc]
+registry = "https://mirrors.ustc.edu.cn/crates.io-index"
+[source.ustc-sparse]
+registry = "sparse+https://mirrors.ustc.edu.cn/crates.io-index/"
+
+# 清华大学
+[source.tuna]
+registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
+[source.tuna-sparse]
+registry = "sparse+https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/"
+
+# 上海交通大学
+[source.sjtu]
+registry = "https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index/"
+
+# rustcc社区
+[source.rustcc]
+registry = "https://code.aliyun.com/rustcc/crates.io-index.git"
+
+# 玄武社区
+[source.xuanwu]
+registry = "https://xuanwu.base.atomgit.com/crates.io-index"
+[source.xuanwu-sparse]
+registry = "sparse+https://xuanwu.base.atomgit.com/index/"
+[registries.xuanwu]
+index = "https://xuanwu.base.atomgit.com/crates.io-index"
